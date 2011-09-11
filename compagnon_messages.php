@@ -80,6 +80,19 @@ function compagnon_compagnon_messages($flux) {
 					break;
 			}
 			break;
+
+		case 'affiche_gauche':
+			switch ($exec) {
+				case 'job_queue':
+					$aides[] = array(
+						'id' => 'job_queue',
+						'titre' => _T('compagnon:c_job'),
+						'texte' => _T('compagnon:c_job_texte'),
+						'statuts'=> array('webmestre')
+					);
+					break;
+			}
+			break;
 	}
 
 	

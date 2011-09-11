@@ -19,6 +19,7 @@
 	
 	<pipeline nom="compagnon_messages" inclure="compagnon_messages.php" />
 	<pipeline nom="affiche_milieu" inclure="compagnon_pipelines.php" />
+	<pipeline nom="affiche_gauche" inclure="compagnon_pipelines.php" />
 
 </paquet>
 

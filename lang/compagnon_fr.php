@@ -31,7 +31,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_articles_creer_texte' => "Vous ne pourrez créer un article depuis cette page
 		qu'à partir du moment où il existe une rubrique dans votre site.
 		Vous pouvez la créer depuis le menu «Édition», puis «Rubriques».",
-		
+
+	'c_job' => "Les travaux à faire…",
+	'c_job_texte' => "Cette page liste les prochaines tâches de maintenance
+		que doit effectuéer SPIP. Ces tâches sont exécutées à interval régulier
+		ou ponctuellement pour des traitements lourds demandés par des plugins,
+		tel que l'envoi d'email en masse.",
+	
 	'c_rubriques_creer' => "Creez une première rubrique !",
 	'c_rubriques_creer_texte' => "Les rubriques sont la structure de base du site.
 		Dedans, vous pourrez y créer des articles.

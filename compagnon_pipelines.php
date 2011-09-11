@@ -7,6 +7,9 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 function compagnon_affiche_milieu($flux) {
 	return compagnonage($flux, 'affiche_milieu');
 }
+function compagnon_affiche_gauche($flux) {
+	return compagnonage($flux, 'affiche_gauche');
+}
 
 
 
