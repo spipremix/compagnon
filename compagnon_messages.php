@@ -1,5 +1,7 @@
 <?php
 
+if (!defined('_ECRIRE_INC_VERSION')) return;
+
 
 function compagnon_compagnon_messages($flux) {
 
@@ -53,6 +55,16 @@ function compagnon_compagnon_messages($flux) {
 					);						
 					break;
 
+				case 'articles':
+					if (!sql_countsel('spip_articles')) {
+						$aides[] = array(
+							'id' => 'articles',
+							'titre' => _T('compagnon:c_articles_creer'),
+							'texte' => _T('compagnon:c_articles_creer_texte'),
+							'statuts'=> array('webmestre')
+						);
+					}			
+					break;
 					
 				case 'article':
 					$aides[] = array(

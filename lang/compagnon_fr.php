@@ -26,7 +26,12 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_article_redaction_redacteur' => "L'article est en cours de rédaction",
 	'c_article_redaction_redacteur_texte' => "Pour proposer votre article aux administrateurs du site et aux autres rédacteurs,
 		dans le cadre sur le côté, changez «en cours de rédaction» par «proposé à la publication».",
-	
+
+	'c_articles_creer' => "Comment créer un article ?",
+	'c_articles_creer_texte' => "Vous ne pourrez créer un article depuis cette page
+		qu'à partir du moment où il existe une rubrique dans votre site.
+		Vous pouvez la créer depuis le menu «Édition», puis «Rubriques».",
+		
 	'c_rubriques_creer' => "Creez une première rubrique !",
 	'c_rubriques_creer_texte' => "Les rubriques sont la structure de base du site.
 		Dedans, vous pourrez y créer des articles.
