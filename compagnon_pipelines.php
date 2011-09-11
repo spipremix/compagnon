@@ -24,6 +24,7 @@ function compagnon_affiche_milieu($flux) {
 function compagnonage($flux, $pipeline) {
 
 	// pas de compagnon souhaite ?
+	include_spip('inc/config');
 	if (lire_config("compagnon/config/activer") == 'non') {
 		return $flux;
 	}
