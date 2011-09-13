@@ -28,9 +28,9 @@ function compagnonage($flux, $pipeline) {
 
 	// pas de compagnon souhaite ?
 	include_spip('inc/config');
-	if (lire_config("compagnon/config/activer") == 'non') {
-		return $flux;
-	}
+	#if (lire_config("compagnon/config/activer") == 'non') {
+	#	return $flux;
+	#}
 	
 	$flux['args']['pipeline'] = $pipeline;
 	$aides = pipeline('compagnon_messages', array('args'=>$flux['args'], 'data'=>array()));
@@ -41,7 +41,7 @@ function compagnonage($flux, $pipeline) {
 	
 	
 	$moi = $GLOBALS['visiteur_session'];
-	$deja_vus = lire_config("compagnon/$moi[id_auteur]");
+	$deja_vus = lire_config("compagnon/".$moi['id_auteur']);
 	$ajouts = "";
 	
 	foreach ($aides as $aide) {
@@ -81,6 +81,28 @@ function compagnonage($flux, $pipeline) {
 
 	// ajout de nos trouvailles
 	if ($ajouts) {
+		$twinkle = find_in_path('prive/javascript/jquery.twinkle.js');
+		$ajouts.=<<<JS
+<script type="text/javascript">
+jQuery.getScript('$twinkle',function(){
+	jQuery(function(){
+		var options = {
+			"gap": 300,
+			"effectOptions": {
+				"color": "rgba(255,223,96,0.5)"
+			}
+		};
+		jQuery('.compagnon').each(function(){
+			if (jQuery('.target-highlight',this).length){
+			  var target = jQuery('.target-highlight',this).attr('data-target');
+			  jQuery(this).mouseover(function(){jQuery(target).twinkle(options);});
+			}
+		});
+	});
+});
+</script>
+JS;
+
 		$flux['data'] = $ajouts . $flux['data'];
 	}
 	

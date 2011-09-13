@@ -25,13 +25,15 @@ function compagnon_compagnon_messages($flux) {
 						'id' => 'accueil_configurer',
 						'titre' => _T('compagnon:c_accueil_configurer_site'),
 						'texte' => _T('compagnon:c_accueil_configurer_site_texte', array('nom'=>$GLOBALS['meta']['nom_site'])),
-						'statuts'=> array('webmestre')
+						'statuts'=> array('webmestre'),
+						'target' => '#bando_identite .nom_site_spip .nom',
 					);
 					$aides[] = array(
 						'id' => 'accueil_publication',
 						'titre' => _T('compagnon:c_accueil_publication'),
 						'texte' => _T('compagnon:c_accueil_publication_texte'),
-						'statuts'=> array('webmestre')
+						'statuts'=> array('webmestre'),
+						'target'=> '#bando1_menu_edition',
 					);			
 					break;
 
@@ -41,8 +43,9 @@ function compagnon_compagnon_messages($flux) {
 						'id' => 'rubriques',
 						'titre' => _T('compagnon:c_rubriques_creer'),
 						'texte' => _T('compagnon:c_rubriques_creer_texte'),
-						'statuts'=> array('webmestre')
-					);						
+						'statuts'=> array('webmestre'),
+						'target'=> '#contenu .icone:first-of-type',
+					);
 					break;
 
 					
