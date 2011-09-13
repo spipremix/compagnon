@@ -87,15 +87,22 @@ function compagnonage($flux, $pipeline) {
 jQuery.getScript('$twinkle',function(){
 	jQuery(function(){
 		var options = {
-			"gap": 300,
+			"effect": "drop",
 			"effectOptions": {
-				"color": "rgba(255,223,96,0.5)"
+				"color": "rgba(255,96,96,1)",
+				"radius": 50
 			}
 		};
 		jQuery('.compagnon').each(function(){
 			if (jQuery('.target-highlight',this).length){
 			  var target = jQuery('.target-highlight',this).attr('data-target');
-			  jQuery(this).mouseover(function(){jQuery(target).twinkle(options);});
+			  var delay = 0;
+			  jQuery(this).mouseover(function(){
+			      if (!delay) {
+				    delay=1; setTimeout(function(){delay=0;}, 800);
+					jQuery(target).twinkle(options);
+				  }
+			  });
 			}
 		});
 	});
