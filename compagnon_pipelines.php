@@ -28,9 +28,9 @@ function compagnonage($flux, $pipeline) {
 
 	// pas de compagnon souhaite ?
 	include_spip('inc/config');
-	#if (lire_config("compagnon/config/activer") == 'non') {
-	#	return $flux;
-	#}
+	if (lire_config("compagnon/config/activer") == 'non') {
+		return $flux;
+	}
 	
 	$flux['args']['pipeline'] = $pipeline;
 	$aides = pipeline('compagnon_messages', array('args'=>$flux['args'], 'data'=>array()));
