@@ -21,7 +21,7 @@
 #SET{right,#ENV{ltr}|choixsiegal{left,right,left}}
 
 /* ----- compagnon (extends box) ----- */
-
+.compagnon {position:relative;}
 .compagnon .inner {
 	border:2px solid #b5cf67;
 	border-radius:10px;
@@ -53,6 +53,12 @@
 .compagnon button.submit:hover {
 	box-shadow:none;
 	background:#fcfcfc;
+}
+.compagnon .target {
+	position:absolute; bottom:5px; left:5px;
+	display:block; width:32px; height:32px;
+	background:url([(#CHEMIN_IMAGE{target-32.png}|image_sepia{dfeabe}|extraire_attribut{src})]);
+	cursor:crosshair;
 }
 #navigation .compagnon .inner .hd {min-height:2.5em;}
 #navigation .compagnon .inner .bd {padding-left:10px;}

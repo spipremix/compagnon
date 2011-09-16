@@ -2,11 +2,10 @@
 [<pre>(#ENV**|unserialize|print_r{1})</pre>]
 #BOITE_OUVRIR{'<:compagnon:c_article_redaction:>',compagnon}
 
-<span class="target-highlight" data-target="#navigation li.editer_statut"></span>
-
 <:compagnon:c_article_redaction_texte:>
 
 #BOITE_PIED
+	<span class="target" data-target="#navigation li.editer_statut"></span>
 	[(#BOUTON_ACTION{[(#VAL|ok_aleatoire)],#URL_ACTION_AUTEUR{compagnon,compris/#ID,#SELF|parametre_url{fermer,oui}},ajax})]
 #BOITE_FERMER
 ]

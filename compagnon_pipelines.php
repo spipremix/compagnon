@@ -93,17 +93,15 @@ jQuery.getScript('$twinkle',function(){
 				"radius": 50
 			}
 		};
-		jQuery('.compagnon').each(function(){
-			if (jQuery('.target-highlight',this).length){
-			  var target = jQuery('.target-highlight',this).attr('data-target');
+		jQuery('.compagnon .target').each(function(){
+			  var target = jQuery(this).attr('data-target');
 			  var delay = 0;
-			  jQuery(this).mouseover(function(){
+			  jQuery(this).mousemove(function(){
 			      if (!delay) {
 				    delay=1; setTimeout(function(){delay=0;}, 800);
 					jQuery(target).twinkle(options);
 				  }
 			  });
-			}
 		});
 	});
 });
