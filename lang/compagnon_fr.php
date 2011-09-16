@@ -53,9 +53,12 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// E
 	'explication_activer_compagnon' => "Le compagnon ajoute des commentaires sur certaines pages
 			de l'espace privé pour aider à prendre en main SPIP. Souhaitez-vous l'activer ?",
+	'explication_reinitialiser_compagnon' => "Les messages déjà vus par un auteur ne sont plus affichés ensuite.
+			Souhaitez-vous réinitialiser ces messages ?",
 	
 	// L
 	'label_activer_compagnon' => "Activer le compagnon ?",
+	'label_reinitialiser_compagnon' => "Réinitialiser les messages du compagnon ?",
 	
 	// O
 	'ok' => "OK",
@@ -64,6 +67,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'ok_merci' => "Merci",
 	'ok_parfait' => "Parfait !",
 
+	// R
+	'reinitialiser' => "Réinitialiser",
+	'reinitialiser_moi' => "Oui, uniquement ceux que j'ai déjà lu",
+	'reinitialiser_tous' => "Oui, quelque soit l'auteur",
+	'reinitialisation' => "Réinitialisation",
+	'reinitialisation_ok' => "La réinitialisation est effectuée.",
+	
 	// T
 	'titre_compagnon' => "Le Compagnon",
 	'titre_page_configurer_compagnon' => "Configurer le Compagnon",
