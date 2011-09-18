@@ -54,12 +54,13 @@ function compagnon_compagnon_messages($flux) {
 						'id' => 'rubrique',
 						'titre' => _T('compagnon:c_rubrique_publier'),
 						'texte' => _T('compagnon:c_rubrique_publier_texte'),
-						'statuts'=> array('webmestre')
+						'statuts'=> array('webmestre'),
+						'target'=> '#contenu .icone.article-new-24'
 					);						
 					break;
 
 				case 'articles':
-					if (!sql_countsel('spip_articles')) {
+					if (!sql_countsel('spip_rubriques')) {
 						$aides[] = array(
 							'id' => 'articles',
 							'titre' => _T('compagnon:c_articles_creer'),
