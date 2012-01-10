@@ -19,7 +19,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_texte' => 'Práve ste sa dostali do súkromnej zóny SPIPu.',
 	'c_accueil_texte_revenir' => '		Táto stránka uvádza najnovšiu redakčnú aktivitu na vašej stránke.
 		Túto stránku môžete navštíviť kedykoľvek kliknutím na ikonu domčeka 
-                            na vrchu pod svojím menom.',
+                            na vrchu pod svojím menom.', # MODIF
 	'c_article_redaction' => 'Článok sa upravuje',
 	'c_article_redaction_redacteur' => 'Článok sa upravuje',
 	'c_article_redaction_redacteur_texte' => 'Pour proposer votre article aux administrateurs du site et aux autres rédacteurs,
@@ -35,18 +35,18 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 		que doit effectuéer SPIP. Ces tâches sont exécutées à interval régulier
 		ou ponctuellement pour des traitements lourds demandés par des plugins,
 		tel que l\'envoi d\'email en masse.', # NEW
-	'c_rubrique_publier' => 'Vytvorte článok',
+	'c_rubrique_publier' => 'Vytvorte článok', # MODIF
 	'c_rubrique_publier_texte' => 'Une rubrique n\'est visible sur le site public
 		qu\'à partir du moment où elle contient au moins un contenu publié dedans. Par exemple, un article publié.
 		Créez donc un article. Vous pouvez le faire depuis cette page, sous le descriptif de votre rubrique.', # NEW
-	'c_rubriques_creer' => 'Vytvorte prvú rubriku!',
+	'c_rubriques_creer' => 'Vytvorte prvú rubriku!', # MODIF
 	'c_rubriques_creer_texte' => 'Rubriky tvoria základnú štruktúru stránky.
 		V nich môžete vytvárať články.
 		Začnite vytvárať prvú rubriku.',
 
 	// E
 	'explication_activer_compagnon' => 'Asistent pridáva komentáre na niektoré stránky
-			súkromnej zóny na pomoc s ovládaním SPIPu. Chcete ho aktivovať?',
+			súkromnej zóny na pomoc s ovládaním SPIPu. Chcete ho aktivovať?', # MODIF
 	'explication_reinitialiser_compagnon' => 'Správy, ktoré autor videl, sa už viac nezobrazujú.			Chcete obnoviť tieto správy?',
 
 	// L
@@ -65,7 +65,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'reinitialisation_ok' => 'Vykonáva sa obnovenie.',
 	'reinitialiser' => 'Obnoviť',
 	'reinitialiser_moi' => 'Áno, len tie, ktoré som už prečítal(a)',
-	'reinitialiser_tous' => 'Áno, ktokoľvek je autor',
+	'reinitialiser_tous' => 'Áno, ktokoľvek je autor', # MODIF
 
 	// T
 	'titre_compagnon' => 'Sprievodca',
