@@ -36,11 +36,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 		tel que l\'envoi d\'email en masse.',
 	'c_rubrique_publier' => 'Créez un article',
 	'c_rubrique_publier_texte' => 'Une rubrique n\'est visible sur le site public
-		qu\'à partir du moment où elle contient au moins un contenu publié dedans. Par exemple, un article publié.
+		qu\'à partir du moment où elle contient au moins un contenu publié ; par exemple : un article publié.
 		Créez donc un article. Vous pouvez le faire depuis cette page, sous le descriptif de votre rubrique.',
 	'c_rubriques_creer' => 'Créez une première rubrique !',
-	'c_rubriques_creer_texte' => 'Les rubriques sont la structure de base du site.
-		Dedans, vous pourrez y créer des articles.
+	'c_rubriques_creer_texte' => 'Les rubriques sont la structure de base du site ; vous pourrez créer des articles dans chacune d\'entre elles.
 		Commencez par créer une première rubrique.',
 
 	// E
