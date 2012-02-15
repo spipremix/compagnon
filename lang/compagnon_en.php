@@ -17,8 +17,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_publication_texte' => 'Pour publier une page, il vous faudra créer un article.
 		Il est nécessaire pour cela de créer au moins une rubrique. Vous pouvez le faire dans le menu « Édition » en cliquant « Rubriques ».', # NEW
 	'c_accueil_texte' => 'You have just entered SPIP\'s private area.',
-	'c_accueil_texte_revenir' => '
-		Cette page présente l\'activité éditoriale récente sur votre site.
+	'c_accueil_texte_revenir' => '		Cette page présente l\'activité éditoriale récente sur votre site.
 		Vous pouvez revenir sur cette page à tout instant en cliquant l\'icône de maison,
 		sur la partie haute, sous votre nom.', # NEW
 	'c_article_redaction' => 'L\'article est en cours de rédaction', # The editing of this article is in progress
@@ -31,7 +30,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_articles_creer_texte' => 'You cannot create an article from this page
 		unless there is at least one section in your site.
 		You can create it from the "Sections" menu under "Edit". ',
-	'c_job' => 'Les travaux à faire…', # NEW
+	'c_job' => 'Jobs to do...',
 	'c_job_texte' => 'Cette page liste les prochaines tâches de maintenance
 		que doit effectuer SPIP. Ces tâches sont exécutées à intervalle régulier
 		ou ponctuellement pour des traitements lourds demandés par des plugins,
@@ -40,15 +39,15 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_rubrique_publier_texte' => 'Une rubrique n\'est visible sur le site public
 		qu\'à partir du moment où elle contient au moins un contenu publié ; par exemple : un article publié.
 		Créez donc un article. Vous pouvez le faire depuis cette page, sous le descriptif de votre rubrique.', # NEW
-	'c_rubriques_creer' => 'Créez une première rubrique !', # NEW
+	'c_rubriques_creer' => 'Create a first section !',
 	'c_rubriques_creer_texte' => 'Les rubriques sont la structure de base du site ; vous pourrez créer des articles dans chacune d\'entre elles.
 		Commencez par créer une première rubrique.', # NEW
 
 	// E
 	'explication_activer_compagnon' => 'Le compagnon ajoute des commentaires sur certaines pages
 			de l\'espace privé pour aider à prendre SPIP en main. Souhaitez-vous l\'activer ?', # NEW
-	'explication_reinitialiser_compagnon' => 'Les messages déjà vus par un auteur ne sont plus affichés ensuite.
-			Souhaitez-vous réinitialiser ces messages ?', # NEW
+	'explication_reinitialiser_compagnon' => 'Messages already seen by an author won\'t be displayed then.
+Would you like to reset these messages?',
 
 	// L
 	'label_activer_compagnon' => 'Enable the Companion?',
