@@ -8,20 +8,20 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// C
-	'c_accueil_bienvenue' => 'Welcome@nom@ !',
+	'c_accueil_bienvenue' => 'Welcome @nom@ !',
 	'c_accueil_configurer_site' => 'Configure your site',
 	'c_accueil_configurer_site_texte' => 'Une des premières choses à faire est de donner un nom à votre site.
 		Il se nomme actuellement « @nom@ ». Le nom du site est affiché tout en haut de cette page.
 		En cliquant dessus, vous pourrez modifier son nom, mais aussi lui donner un logo et un slogan.', # NEW
 	'c_accueil_publication' => 'Publish!',
-	'c_accueil_publication_texte' => 'Pour publier une page, il vous faudra créer un article.
-		Il est nécessaire pour cela de créer au moins une rubrique. Vous pouvez le faire dans le menu « Édition » en cliquant « Rubriques ».', # NEW
+	'c_accueil_publication_texte' => 'To publish a page, you need to create an article.
+		It is also necessary that you create at least one section to do so. You can proceed by clicking on the menu « Edition » then  on « Sections ».', # MODIF
 	'c_accueil_texte' => 'You have just entered SPIP\'s private area.',
 	'c_accueil_texte_revenir' => '		Cette page présente l\'activité éditoriale récente sur votre site.
 		Vous pouvez revenir sur cette page à tout instant en cliquant l\'icône de maison,
 		sur la partie haute, sous votre nom.', # NEW
 	'c_article_redaction' => 'L\'article est en cours de rédaction', # The editing of this article is in progress
-	'c_article_redaction_redacteur' => 'L\'article est en cours de rédaction', # NEW
+	'c_article_redaction_redacteur' => 'This article is in writing progress', # MODIF
 	'c_article_redaction_redacteur_texte' => 'Pour proposer votre article aux administrateurs du site et aux autres rédacteurs,
 		dans le cadre sur le côté, changez « en cours de rédaction » par « proposé à la publication ».', # NEW
 	'c_article_redaction_texte' => 'Pour publier cet article sur le site public, il faut changer son statut.
