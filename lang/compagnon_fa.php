@@ -41,31 +41,31 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_rubriques_creer_texte' => 'بخش‌ها ساختار اساسي سايت هستند؛ شما مي‌توانيد مقاله‌ها را داخل هر يك از آن‌ها ايجاد كنيد. با ايجاد نخستين بخش شروع كنيد. ',
 
 	// E
-	'explication_activer_compagnon' => 'Le compagnon ajoute des commentaires sur certaines pages
-			de l\'espace privé pour aider à prendre SPIP en main. Souhaitez-vous l\'activer ?', # NEW
-	'explication_reinitialiser_compagnon' => 'Les messages déjà vus par un auteur ne sont plus affichés ensuite.
-			Souhaitez-vous réinitialiser ces messages ?', # NEW
+	'explication_activer_compagnon' => '«همراه» در بعضي از صفحه‌هاي قسمت شخصي نظراتي اضافه مي‌كند كه براي به خاطر سپردن اسپيپ كمك مي‌كنند. آيا مايليد همراه را فعال كنيد؟',
+	'explication_reinitialiser_compagnon' => 'پيام‌هايي كه كس ديگري آن‌ها را قبلاً ديده ديگر نشان داده نمي‌شوند. 
+آيا مايليد اين پيام‌ها ريست (بازتنظيم) شوند؟
+',
 
 	// L
-	'label_activer_compagnon' => 'Activer le compagnon ?', # NEW
-	'label_reinitialiser_compagnon' => 'Réinitialiser les messages du compagnon ?', # NEW
+	'label_activer_compagnon' => 'فعال‌سازي «همراه»؟',
+	'label_reinitialiser_compagnon' => 'آيا پيام‌هاي «همراه» بازتنظيم شوند؟',
 
 	// O
-	'ok' => 'OK', # NEW
-	'ok_bien' => 'Bien !', # NEW
-	'ok_jai_compris' => 'J\'ai compris !', # NEW
-	'ok_merci' => 'Merci', # NEW
-	'ok_parfait' => 'Parfait !', # NEW
+	'ok' => 'اوكي',
+	'ok_bien' => 'خوبه!',
+	'ok_jai_compris' => 'گرفتم!',
+	'ok_merci' => 'مرسي',
+	'ok_parfait' => 'كامل',
 
 	// R
-	'reinitialisation' => 'Réinitialisation', # NEW
-	'reinitialisation_ok' => 'La réinitialisation est effectuée.', # NEW
-	'reinitialiser' => 'Réinitialiser', # NEW
-	'reinitialiser_moi' => 'Oui, uniquement ceux que j\'ai déjà lu', # NEW
-	'reinitialiser_tous' => 'Oui, quel que soit l\'auteur', # NEW
+	'reinitialisation' => 'نصب مجدد',
+	'reinitialisation_ok' => 'نصب مجدد انجام شدته',
+	'reinitialiser' => 'بازتنظيم',
+	'reinitialiser_moi' => 'بله، فقط آن‌ها كه پيشتر خوانده‌ام',
+	'reinitialiser_tous' => 'بله، بي‌توجه به ديگري',
 
 	// T
-	'titre_compagnon' => 'Le Compagnon', # NEW
+	'titre_compagnon' => 'همراه',
 	'titre_page_configurer_compagnon' => 'پيكربندي «همراه».'
 );
 
