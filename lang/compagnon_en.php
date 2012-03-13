@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// C
-	'c_accueil_bienvenue' => 'Welcome @nom@ !',
+	'c_accueil_bienvenue' => 'Welcome @nom@!',
 	'c_accueil_configurer_site' => 'Configure your site',
 	'c_accueil_configurer_site_texte' => 'Une des premières choses à faire est de donner un nom à votre site.
 		Il se nomme actuellement « @nom@ ». Le nom du site est affiché tout en haut de cette page.
