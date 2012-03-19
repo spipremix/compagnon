@@ -10,42 +10,34 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// C
 	'c_accueil_bienvenue' => 'Welcome @nom@!',
 	'c_accueil_configurer_site' => 'Configure your site',
-	'c_accueil_configurer_site_texte' => 'Une des premières choses à faire est de donner un nom à votre site.
-		Il se nomme actuellement « @nom@ ». Le nom du site est affiché tout en haut de cette page.
-		En cliquant dessus, vous pourrez modifier son nom, mais aussi lui donner un logo et un slogan.', # NEW
+	'c_accueil_configurer_site_texte' => 'One of the first things to do is to give a name to your site. It is now named "@nom@". The site name is displayed at the top of this page. By clicking on it, you can change its name, but also give him a logo and a slogan.',
 	'c_accueil_publication' => 'Publish!',
 	'c_accueil_publication_texte' => 'To publish a page, you need to create an article.
-		It is also necessary that you create at least one section to do so. You can proceed by clicking on the menu « Edition » then  on « Sections ».', # MODIF
+It is also necessary that you create at least one section to do so. You can proceed by clicking on the menu "Edition" then  on "Sections".',
 	'c_accueil_texte' => 'You have just entered SPIP\'s private area.',
-	'c_accueil_texte_revenir' => '		Cette page présente l\'activité éditoriale récente sur votre site.
-		Vous pouvez revenir sur cette page à tout instant en cliquant l\'icône de maison,
-		sur la partie haute, sous votre nom.', # NEW
+	'c_accueil_texte_revenir' => 'This page shows the latest editorial activity on your site.
+You can visit this page at any time by clicking the "house icon",
+on the top, under your name.',
 	'c_article_redaction' => 'L\'article est en cours de rédaction', # The editing of this article is in progress
-	'c_article_redaction_redacteur' => 'This article is in writing progress', # MODIF
-	'c_article_redaction_redacteur_texte' => 'Pour proposer votre article aux administrateurs du site et aux autres rédacteurs,
-		dans le cadre sur le côté, changez « en cours de rédaction » par « proposé à la publication ».', # NEW
-	'c_article_redaction_texte' => 'Pour publier cet article sur le site public, il faut changer son statut.
-		Dans le cadre sur le côté, changez « en cours de rédaction » par « publié en ligne ».', # NEW
+	'c_article_redaction_redacteur' => 'This edition of this article is in progress',
+	'c_article_redaction_redacteur_texte' => 'To propose your article to the site administrators and to the other editors,
+within the block on the column side, change "edition in progress" to "submitted for evaluation."',
+	'c_article_redaction_texte' => 'To publish this article on the public site, change its status.
+In the block on the side column, change "editing in progress" by "published online".',
 	'c_articles_creer' => 'How to create an article?',
 	'c_articles_creer_texte' => 'You cannot create an article from this page
 		unless there is at least one section in your site.
 		You can create it from the "Sections" menu under "Edit". ',
 	'c_job' => 'Jobs to do...',
-	'c_job_texte' => 'Cette page liste les prochaines tâches de maintenance
-		que doit effectuer SPIP. Ces tâches sont exécutées à intervalle régulier
-		ou ponctuellement pour des traitements lourds demandés par des plugins,
-		tel que l\'envoi d\'email en masse.', # NEW
+	'c_job_texte' => 'This page lists upcoming maintenance tasks to be made by SPIP. These tasks are executed at regular intervals or occasionally for heavy processing required by plugins, such as sending bulk email.',
 	'c_rubrique_publier' => 'Create an article',
-	'c_rubrique_publier_texte' => 'Une rubrique n\'est visible sur le site public
-		qu\'à partir du moment où elle contient au moins un contenu publié ; par exemple : un article publié.
-		Créez donc un article. Vous pouvez le faire depuis cette page, sous le descriptif de votre rubrique.', # NEW
+	'c_rubrique_publier_texte' => 'A section is visible on the public site only from the moment it contains at least one published content, for example: a published article.
+So create an article. You can do it from this page under the description of your section.',
 	'c_rubriques_creer' => 'Create a first section !',
-	'c_rubriques_creer_texte' => 'Les rubriques sont la structure de base du site ; vous pourrez créer des articles dans chacune d\'entre elles.
-		Commencez par créer une première rubrique.', # NEW
+	'c_rubriques_creer_texte' => 'Sections are the basic structure of the site, you can create articles in each of them. Start by creating a first section.',
 
 	// E
-	'explication_activer_compagnon' => 'Le compagnon ajoute des commentaires sur certaines pages
-			de l\'espace privé pour aider à prendre SPIP en main. Souhaitez-vous l\'activer ?', # NEW
+	'explication_activer_compagnon' => 'The companion adds comments on some pages of the private area to assist in taking SPIP in hand. Would you like to activate it?',
 	'explication_reinitialiser_compagnon' => 'Messages already seen by an author won\'t be displayed then.
 Would you like to reset these messages?',
 
