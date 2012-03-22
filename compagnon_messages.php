@@ -34,21 +34,23 @@ function compagnon_compagnon_messages($flux) {
 						'texte' => _T('compagnon:c_accueil_publication_texte'),
 						'statuts'=> array('webmestre'),
 						'target'=> '#bando1_menu_edition',
-					);			
-					break;
-
-					
-				case 'rubriques':
-					$aides[] = array(
-						'id' => 'rubriques',
-						'titre' => _T('compagnon:c_rubriques_creer'),
-						'texte' => _T('compagnon:c_rubriques_creer_texte'),
-						'statuts'=> array('webmestre'),
-						'target'=> '#contenu .icone:first-of-type',
 					);
 					break;
 
-					
+
+				case 'rubriques':
+					if (!sql_countsel('spip_rubriques')) {
+						$aides[] = array(
+							'id' => 'rubriques',
+							'titre' => _T('compagnon:c_rubriques_creer'),
+							'texte' => _T('compagnon:c_rubriques_creer_texte'),
+							'statuts'=> array('webmestre'),
+							'target'=> '#contenu .icone:first-of-type',
+						);
+					}
+					break;
+
+
 				case 'rubrique':
 					$aides[] = array(
 						'id' => 'rubrique',
@@ -56,7 +58,7 @@ function compagnon_compagnon_messages($flux) {
 						'texte' => _T('compagnon:c_rubrique_publier_texte'),
 						'statuts'=> array('webmestre'),
 						'target'=> '#contenu .icone.article-new-24'
-					);						
+					);
 					break;
 
 				case 'articles':
@@ -67,9 +69,9 @@ function compagnon_compagnon_messages($flux) {
 							'texte' => _T('compagnon:c_articles_creer_texte'),
 							'statuts'=> array('webmestre')
 						);
-					}			
+					}
 					break;
-					
+
 				case 'article':
 					$aides[] = array(
 						'id' => 'article_redaction',
@@ -80,7 +82,7 @@ function compagnon_compagnon_messages($flux) {
 						'id' => 'article_redaction_redacteur',
 						'inclure' => 'compagnon/article_redaction_redacteur',
 						'statuts'=> array('1comite')
-					);	
+					);
 					break;
 			}
 			break;
