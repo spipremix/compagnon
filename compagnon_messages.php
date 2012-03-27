@@ -5,9 +5,10 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 
 function compagnon_compagnon_messages($flux) {
 
-	$exec = $flux['args']['exec'];
+	$exec     = $flux['args']['exec'];
 	$pipeline = $flux['args']['pipeline'];
-	$aides = &$flux['data'];
+	$vus      = $flux['args']['deja_vus'];
+	$aides    = &$flux['data'];
 
 	switch ($pipeline) {
 		
@@ -39,7 +40,8 @@ function compagnon_compagnon_messages($flux) {
 
 
 				case 'rubriques':
-					if (!sql_countsel('spip_rubriques')) {
+					// eviter si possible une requete sql.
+					if (!isset($vus['rubriques']) and !sql_countsel('spip_rubriques')) {
 						$aides[] = array(
 							'id' => 'rubriques',
 							'titre' => _T('compagnon:c_rubriques_creer'),
@@ -52,17 +54,24 @@ function compagnon_compagnon_messages($flux) {
 
 
 				case 'rubrique':
-					$aides[] = array(
-						'id' => 'rubrique',
-						'titre' => _T('compagnon:c_rubrique_publier'),
-						'texte' => _T('compagnon:c_rubrique_publier_texte'),
-						'statuts'=> array('webmestre'),
-						'target'=> '#contenu .icone.article-new-24'
-					);
+					// eviter si possible une requete sql.
+					if (!isset($vus['rubrique'])) {
+						$statut = sql_getfetsel('statut', 'spip_rubriques', 'id_rubrique='.$flux['args']['id_rubrique']);
+						if ($statut != 'publie') {
+							$aides[] = array(
+								'id' => 'rubrique',
+								'titre' => _T('compagnon:c_rubrique_publier'),
+								'texte' => _T('compagnon:c_rubrique_publier_texte'),
+								'statuts'=> array('webmestre'),
+								'target'=> '#contenu .icone.article-new-24'
+							);
+						}
+					}
 					break;
 
 				case 'articles':
-					if (!sql_countsel('spip_rubriques')) {
+					// eviter si possible une requete sql.
+					if (!isset($vus['articles']) and !sql_countsel('spip_rubriques')) {
 						$aides[] = array(
 							'id' => 'articles',
 							'titre' => _T('compagnon:c_articles_creer'),

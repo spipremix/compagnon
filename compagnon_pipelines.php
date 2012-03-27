@@ -31,19 +31,20 @@ function compagnonage($flux, $pipeline) {
 	if (lire_config("compagnon/config/activer") == 'non') {
 		return $flux;
 	}
-	
+
+	$moi = $GLOBALS['visiteur_session'];
+	$deja_vus = lire_config("compagnon/".$moi['id_auteur']);
+
 	$flux['args']['pipeline'] = $pipeline;
-	$aides = pipeline('compagnon_messages', array('args'=>$flux['args'], 'data'=>array()));
-	
+	$flux['args']['deja_vus'] = $deja_vus;
+	$aides = pipeline('compagnon_messages', array('args'=>$flux['args'], 'data' => array()));
+
 	if (!$aides) {
 		return $flux;
 	}
-	
-	
-	$moi = $GLOBALS['visiteur_session'];
-	$deja_vus = lire_config("compagnon/".$moi['id_auteur']);
+
 	$ajouts = "";
-	
+
 	foreach ($aides as $aide) {
 		// restreindre l'affichage par statut d'auteur
 		$ok = true;
@@ -56,7 +57,7 @@ function compagnonage($flux, $pipeline) {
 				$ok = true;
 			} elseif (in_array($moi['statut'], $statuts)) {
 				$ok = true;
-			}			
+			}
 		}
 
 		// si c'est ok, mais que l'auteur a deja lu ca. On s'arrete.
