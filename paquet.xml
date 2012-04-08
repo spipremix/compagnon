@@ -2,7 +2,7 @@
 	prefix="compagnon"
 	categorie="divers"
 	version="1.4.0"
-	etat="dev"
+	etat="stable"
 	compatibilite="[3.0.0-alpha2;["
 	logo="prive/themes/spip/images/compagnon-32.png"
 	schema="1.0.0"
