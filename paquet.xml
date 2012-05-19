@@ -3,7 +3,7 @@
 	categorie="divers"
 	version="1.4.0"
 	etat="stable"
-	compatibilite="[3.0.0-alpha2;["
+	compatibilite="[3.0.0;3.1.*]"
 	logo="prive/themes/spip/images/compagnon-32.png"
 	schema="1.0.0"
 >	
