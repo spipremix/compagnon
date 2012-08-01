@@ -9,7 +9,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// C
 	'compagnon_description' => 'Плагин выводит справку о системе управления при первом входе пользователя в админку.',
-	'compagnon_nom' => 'Помощник',
+	'compagnon_nom' => 'Помощник (Companion)',
 	'compagnon_slogan' => 'Начальная помощь при работе со SPIP'
 );
 
