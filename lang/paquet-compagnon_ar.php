@@ -11,7 +11,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'compagnon_description' => 'يقدم الرفيق مساعدة للمستخدمين
 		لدى أول زيارة لهم الى المجال الخاص في SPIP.',
 	'compagnon_nom' => 'الرفيق',
-	'compagnon_slogan' => 'Assistant de premiers pas avec SPIP' # مرافق الخطوات الأولى في SPIP
+	'compagnon_slogan' => 'مرافق الخطوات الأولى في SPIP' # مرافق الخطوات الأولى في SPIP
 );
 
 ?>
