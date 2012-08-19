@@ -1,22 +1,65 @@
 <?php
 
+/**
+ * Utilisations de pipelines
+ * 
+ * @package SPIP\Compagnon\Pipelines
+**/
+
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 
-
+/**
+ * Ajoute les aides du compagnon sur le pipeline affiche milieu
+ *
+ * @pipeline affiche_milieu
+ * 
+ * @param array $flux
+ *     Données du pipeline
+ * @return array
+ *     Données du pipeline
+**/
 function compagnon_affiche_milieu($flux) {
 	return compagnonage($flux, 'affiche_milieu');
 }
+
+/**
+ * Ajoute les aides du compagnon sur le pipeline affiche gauche
+ *
+ * @pipeline affiche_gauche
+ * 
+ * @param array $flux
+ *     Données du pipeline
+ * @return array
+ *     Données du pipeline
+**/
 function compagnon_affiche_gauche($flux) {
 	return compagnonage($flux, 'affiche_gauche');
 }
+
+/**
+ * Ajoute les aides du compagnon sur le pipeline affiche droite
+ *
+ * @pipeline affiche_droite
+ * 
+ * @param array $flux
+ *     Données du pipeline
+ * @return array
+ *     Données du pipeline
+**/
 function compagnon_affiche_droite($flux) {
 	return compagnonage($flux, 'affiche_droite');
 }
 
 /**
- *  
+ * Ajoute l'aide du compagnon dans un pipeline
  *
+ * Les aides sont ajoutées
+ * - si la config le permet
+ * - si l'aide n'a pas déjà été validée par le visiteur
+ *
+ * @pipeline_appel compagnon_messages
+ * 
  * @param array $flux
  * 		Flux d'informations transmises au pipeline
  * @param string $pipeline

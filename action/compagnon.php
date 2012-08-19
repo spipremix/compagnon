@@ -1,8 +1,19 @@
 <?php
 
+
+/**
+ * Gestion de l'action compagnon
+ * 
+ * @package SPIP\Compagnon\Action
+**/
+
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
-
+/**
+ * Action compagnon : indique qu'un auteur a validé un message d'aide
+ *
+ * @global array $GLOBALS['visiteur_session']
+**/
 function action_compagnon_dist() {
 	$securiser_action = charger_fonction('securiser_action','inc');
 	$arg = $securiser_action();

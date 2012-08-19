@@ -1,16 +1,23 @@
 <?php
 
+/**
+ * Fonctions pour les squelettes
+ * 
+ * @package SPIP\Compagnon\Fonctions
+**/
+
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
 
 /**
- * Retourne un court texte de comprehension
- * aleatoirement parmi une liste.
+ * Retourne un court texte de compréhension
+ * aléatoirement parmi une liste.
  *
- * [(#VAL|ok_aleatoire)]
+ * @example
+ *     [(#VAL|ok_aleatoire)]
  * 
- *
- * @return string Texte.
+ * @return string
+ *     Le texte traduit.
 **/
 function filtre_ok_aleatoire_dist() {
 	$alea = array(

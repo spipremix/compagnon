@@ -1,8 +1,26 @@
 <?php
 
+/**
+ * Gestion de l'action compagnon
+ * 
+ * @package SPIP\Compagnon\Pipelines
+**/
+
 if (!defined('_ECRIRE_INC_VERSION')) return;
 
-
+/**
+ * Définition des messages de compagnon par défaut en fonction
+ *
+ * Retourne une liste de messages d'aides en fonction du pipeline
+ * demandé
+ *
+ * @pipeline compagnon_messages
+ * 
+ * @param array $flux
+ *     Données du pipeline
+ * @return array $flux
+ *     Données du pipeline
+**/
 function compagnon_compagnon_messages($flux) {
 
 	$exec     = $flux['args']['exec'];
@@ -15,7 +33,6 @@ function compagnon_compagnon_messages($flux) {
 		case 'affiche_milieu':
 			switch ($exec) {
 
-				
 				case 'accueil':
 					$aides[] = array(
 						'id' => 'accueil',
@@ -110,7 +127,6 @@ function compagnon_compagnon_messages($flux) {
 			break;
 	}
 
-	
 	return $flux;
 }
 
