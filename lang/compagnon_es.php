@@ -34,7 +34,7 @@ Puedes crear una sección desde el menú «Edición», y luego «Secciones».',
 	'c_rubrique_publier_texte' => 'Una sección sólo será visible en el sitio público una vez que
 contenga algo publicado, por ejemplo un artículo. 
 Crea entonces un artículo. Lo puedes hacer desde esta página, bajo el descriptivo  de la sección.',
-	'c_rubriques_creer' => '¡Crea la primer sección !',
+	'c_rubriques_creer' => '¡Crea la primer sección!',
 	'c_rubriques_creer_texte' => 'Las secciones son la estrucutra de base del sitio; en cada una de ellas podrás crear artículos.
 		Comienza por crear una primer sección.',
 
