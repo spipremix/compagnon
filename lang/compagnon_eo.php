@@ -34,18 +34,16 @@ Vi povas krei ĝin de la menuo «Aldono», poste «Rubrikoj».',
 Tiuj taskoj estas realigitaj je regulaj intervaloj aŭ foje, por pezaj traktadoj petita de kromprogramoj
 kiel multaj retpoŝtaj sendoj.',
 	'c_rubrique_publier' => 'Kreu artikolon',
-	'c_rubrique_publier_texte' => 'Une rubrique n\'est visible sur le site public
-		qu\'à partir du moment où elle contient au moins un contenu publié ; par exemple : un article publié.
-		Créez donc un article. Vous pouvez le faire depuis cette page, sous le descriptif de votre rubrique.', # NEW
+	'c_rubrique_publier_texte' => 'Rubriko estas videbla sur la publika spaco nur la momento ke ĝi enhavas almenaŭ unu publikigita enhavo; ekzemple : publikigita artikolo.
+Do kreu artikolon. Vi povas fari tion el ĉi tiu paĝo, sub la priskribo de via rubriko.',
 	'c_rubriques_creer' => 'Kreu unuan rubrikon',
 	'c_rubriques_creer_texte' => 'La rubrikoj estas la baza strukturo de la retejo ;  vi povos krei artikolojn en ĉiuj rubrikoj.
 Komencu krei unuan rubrikon.',
 
 	// E
-	'explication_activer_compagnon' => 'Le compagnon ajoute des commentaires sur certaines pages
-			de l\'espace privé pour aider à prendre SPIP en main. Souhaitez-vous l\'activer ?', # NEW
-	'explication_reinitialiser_compagnon' => 'Les messages déjà vus par un auteur ne sont plus affichés ensuite.
-			Souhaitez-vous réinitialiser ces messages ?', # NEW
+	'explication_activer_compagnon' => 'La kompano aldonas komentojn en iuj paĝoj de la privata spaco por helpi al unuaj uzadoj de SPIP. Ĉu vi volas ebligi tion?',
+	'explication_reinitialiser_compagnon' => 'La mesaĝoj kiun aŭtoro jam vidis, ne plu estas afiŝita poste.
+Ĉu vi volas restarigi tiujn mesaĝojn?',
 
 	// L
 	'label_activer_compagnon' => 'Aktivigu la kompano ?',

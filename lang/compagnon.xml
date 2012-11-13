@@ -23,6 +23,9 @@
 	<langue code="it" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=it">
 		<traducteur nom="phante" lien="http://trad.spip.net/auteur/phante" />
 	</langue>
+	<langue code="lb" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=lb">
+		<traducteur nom="jwander" lien="http://trad.spip.net/auteur/jwander" />
+	</langue>
 	<langue code="nl" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=nl">
 		<traducteur nom="Suske" lien="http://trad.spip.net/auteur/suske" />
 	</langue>
