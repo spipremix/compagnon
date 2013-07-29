@@ -2,6 +2,9 @@
 	<langue code="ar" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=ar">
 		<traducteur nom="George" lien="http://trad.spip.net/auteur/جورج-قندلفت" />
 	</langue>
+	<langue code="ca" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=ca">
+		<traducteur nom="Jaime Mullol García" lien="http://trad.spip.net/auteur/jaime-mullol-garcia" />
+	</langue>
 	<langue code="de" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=de">
 		<traducteur nom="klaus++" lien="http://trad.spip.net/auteur/klaus" />
 	</langue>
