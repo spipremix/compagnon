@@ -138,14 +138,14 @@ jQuery.getScript('$twinkle',function(){
 			}
 		};
 		jQuery('.compagnon .target').each(function(){
-			  var target = jQuery(this).attr('data-target');
-			  var delay = 0;
-			  jQuery(this).mousemove(function(){
-			      if (!delay) {
-				    delay=1; setTimeout(function(){delay=0;}, 800);
+			var target = jQuery(this).attr('data-target');
+			var delay = 0;
+			jQuery(this).mousemove(function(){
+				if (!delay) {
+					delay=1; setTimeout(function(){delay=0;}, 800);
 					jQuery(target).twinkle(options);
-				  }
-			  });
+				}
+			});
 		});
 	});
 });
