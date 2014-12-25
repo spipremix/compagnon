@@ -46,7 +46,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// E
 	'explication_activer_compagnon' => 'Le compagnon ajoute des commentaires sur certaines pages
 			de l’espace privé pour aider à prendre SPIP en main. Souhaitez-vous l’activer ?',
-	'explication_reinitialiser_compagnon' => 'Les messages déjà vus par une auteure ne sont plus affichés ensuite.
+	'explication_reinitialiser_compagnon' => 'Les messages déjà vus par une autrice ne sont plus affichés ensuite.
 			Souhaitez-vous réinitialiser ces messages ?',
 
 	// L
@@ -65,7 +65,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'reinitialisation_ok' => 'La réinitialisation est effectuée.',
 	'reinitialiser' => 'Réinitialiser',
 	'reinitialiser_moi' => 'Oui, uniquement ceux que j’ai déjà lu',
-	'reinitialiser_tous' => 'Oui, quelle que soit l’auteure',
+	'reinitialiser_tous' => 'Oui, quelle que soit l’autrice',
 
 	// T
 	'titre_compagnon' => 'Le Compagnon',
