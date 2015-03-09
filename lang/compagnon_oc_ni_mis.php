@@ -12,14 +12,13 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_configurer_site' => 'Counfigurà lou vouòstre sit',
 	'c_accueil_configurer_site_texte' => 'Una dei premièra caua da faire es de douna un noum au vouòstre sit.
 		Si souòna atualamen « @nom@ ». Lou noum dóu sit es afichat aquì damount sus aquela pàgina.
-		En picant desoubre, pourès moudificà lou siéu noum, mà finda lì douna un logou e un eslougan.',
+		En clicant desoubre, pourès moudificà lou siéu noum, mà finda lì douna un logou e un eslougan.',
 	'c_accueil_publication' => 'Publicàs !',
 	'c_accueil_publication_texte' => 'Da publicà una pàgina, vous caurà creà un article.
-		Per acò, es necessari de creà au màncou una rùbrica. Poudès lou faire en lou menù « Edicioun » en picant soubre « Rùbrica ».',
+		Per acò, es necessari de creà au màncou una rùbrica. Poudès lou faire en lou menù « Edicioun » en clicant soubre « Rùbrica ».',
 	'c_accueil_texte' => 'Venès d’intrà en l’espaci privat de SPIP.',
-	'c_accueil_texte_revenir' => '
-		Aquela pàgina presenta l’atività editouriala rechenta sus lou vouòstre sit.
-		Poudès sempre tournà sus aquela pàgina en picant sus l’icona de maioun,
+	'c_accueil_texte_revenir' => '		Aquela pàgina presenta l’atività editouriala rechenta sus lou vouòstre sit.
+		Poudès sempre tournà sus aquela pàgina en clicant sus l’icona de maioun,
 		dessamoun, souta lou vouòstre noum.',
 	'c_article_redaction' => 'L’article es en cours de redacioun',
 	'c_article_redaction_redacteur' => 'L’article es en cours de redacioun',
@@ -65,7 +64,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'reinitialisation' => 'Reinicialisacioun',
 	'reinitialisation_ok' => 'La reinicialisacioun es facha.',
 	'reinitialiser' => 'Reinicialisà',
-	'reinitialiser_moi' => 'Ahì, unicamen aquelu qu’ai jà legit',
+	'reinitialiser_moi' => 'Ahì, basta aquelu qu’ai jà legit',
 	'reinitialiser_tous' => 'Ahì, quau sigue l’autour',
 
 	// T
