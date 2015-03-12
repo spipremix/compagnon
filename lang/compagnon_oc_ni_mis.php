@@ -14,7 +14,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 		Si souòna atualamen « @nom@ ». Lou noum dóu sit es afichat aquì damount sus aquela pàgina.
 		En clicant desoubre, pourès moudificà lou siéu noum, mà finda lì douna un logou e un eslougan.',
 	'c_accueil_publication' => 'Publicàs !',
-	'c_accueil_publication_texte' => 'Da publicà una pàgina, vous caurà creà un article.
+	'c_accueil_publication_texte' => 'Da publicà una pàgina, vi caurà creà un article.
 		Per acò, es necessari de creà au màncou una rùbrica. Poudès lou faire en lou menù « Edicioun » en clicant soubre « Rùbrica ».',
 	'c_accueil_texte' => 'Venès d’intrà en l’espaci privat de SPIP.',
 	'c_accueil_texte_revenir' => '		Aquela pàgina presenta l’atività editouriala rechenta sus lou vouòstre sit.
@@ -34,7 +34,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_job_texte' => 'Aquela pàgina lista li tacha de mantenença venent
 		que SPIP dèu efetuà. Aqueli tacha soun esecutadi da intervàlou régulié
 		o pountualamen dai tratamen pèuge demandat dai plugin,
-		couma la spedissioun d’e-mail en massa.',
+		couma l’espedissioun d’e-mail en massa.',
 	'c_rubrique_publier' => 'Creàs un article',
 	'c_rubrique_publier_texte' => 'Una rùbrica es visible sus lou sit public
 		que coura counten au màncou un countegut publicat ; per isemple : un article publicat.
