@@ -8,7 +8,7 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
 $GLOBALS[$GLOBALS['idx_lang']] = array(
 
 	// C
-	'compagnon_description' => 'Lou coumpàgnou fournisse una adjudà ai utilisaire
+	'compagnon_description' => 'Lou coumpàgnou fournisse una adjuda ai utilisaire
 		per la siéu premièra vìsita en l’espaci privat de SPIP.',
 	'compagnon_nom' => 'Coumpàgnou',
 	'compagnon_slogan' => 'Assistant de premié pas embé SPIP'
