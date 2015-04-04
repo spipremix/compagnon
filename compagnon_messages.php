@@ -98,6 +98,18 @@ function compagnon_compagnon_messages($flux) {
 					}
 					break;
 
+				case 'sites':
+					// eviter si possible une requete sql.
+					if (!isset($vus['sites']) and !sql_countsel('spip_rubriques')) {
+						$aides[] = array(
+							'id' => 'sites',
+							'titre' => _T('compagnon:c_sites_creer'),
+							'texte' => _T('compagnon:c_sites_creer_texte'),
+							'statuts'=> array('webmestre')
+						);
+					}
+					break;
+
 				case 'article':
 					$aides[] = array(
 						'id' => 'article_redaction',

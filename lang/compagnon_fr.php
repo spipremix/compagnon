@@ -41,6 +41,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_rubriques_creer' => 'Créez une première rubrique !',
 	'c_rubriques_creer_texte' => 'Les rubriques sont la structure de base du site ; vous pourrez créer des articles dans chacune d’entre elles.
 		Commencez par créer une première rubrique.',
+	'c_sites_creer' => 'Comment créer ou importer un site ?',
+	'c_sites_creer_texte' => 'Vous ne pourrez créer ou importer un site depuis cette page
+		qu’à partir du moment où il existe une rubrique dans votre site.
+		Vous pouvez la créer depuis le menu « Édition », puis « Rubriques ».',
 
 	// E
 	'explication_activer_compagnon' => 'Le compagnon ajoute des commentaires sur certaines pages
