@@ -42,6 +42,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_rubriques_creer' => 'Creàs una premièra rùbrica !',
 	'c_rubriques_creer_texte' => 'Li rùbrica soun la counstrutura da basa dóu sit ; pourès creà dei article en caduna tra eli.
 		Coumençàs da creà una premièra rùbrica.',
+	'c_sites_creer' => 'Couma creà o empourtà un sit ?',
 
 	// E
 	'explication_activer_compagnon' => 'Lou coumpàgnou ajustà dei coumentari sus certeni pàgina
