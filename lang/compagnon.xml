@@ -8,7 +8,8 @@
 	<langue code="de" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=de" total="37" traduits="35" relire="0" modifs="0" nouveaux="2" pourcent="94.59">
 		<traducteur nom="klaus++" lien="http://trad.spip.net/auteur/klaus" />
 	</langue>
-	<langue code="en" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=en" total="37" traduits="35" relire="0" modifs="0" nouveaux="2" pourcent="94.59">
+	<langue code="en" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=en" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="b_b" lien="http://trad.spip.net/auteur/b_b" />
 		<traducteur nom="George" lien="http://trad.spip.net/auteur/جورج-قندلفت" />
 		<traducteur nom="kent1" lien="http://trad.spip.net/auteur/kent1" />
 		<traducteur nom="Loiseau2nuit" lien="http://trad.spip.net/auteur/loiseau2nuit" />
@@ -24,7 +25,8 @@
 	</langue>
 	<langue code="fr" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=fr" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
 	</langue>
-	<langue code="fr_fem" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=fr_fem" total="37" traduits="35" relire="0" modifs="0" nouveaux="2" pourcent="94.59">
+	<langue code="fr_fem" url="http://trad.spip.net/tradlang_module/compagnon?lang_cible=fr_fem" total="37" traduits="37" relire="0" modifs="0" nouveaux="0" pourcent="100.00">
+		<traducteur nom="b_b" lien="http://trad.spip.net/auteur/b_b" />
 		<traducteur nom="denisb" lien="http://trad.spip.net/auteur/denisb" />
 		<traducteur nom="Suske" lien="http://trad.spip.net/auteur/suske" />
 		<traducteur nom="touti" lien="http://trad.spip.net/auteur/touti" />
