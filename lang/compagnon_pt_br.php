@@ -31,6 +31,8 @@ Você pode criá-la a partir do  menu « Edição » e, em seguida « Seçõe
 	'c_rubrique_publier_texte' => 'Uma seção só é exibida na área pública a partir do momento em que ela contenha pelo menos um conteúdo publicado. Crie então uma matéria. Você pode fazê-lo a partir desta página, abaixo da descrição da sua seção.',
 	'c_rubriques_creer' => 'Crie uma primeira seção!',
 	'c_rubriques_creer_texte' => 'As seções são a estrutura básica do site; você pode criar matérias em cada uma delas. Comece criando uma primeira seção.',
+	'c_sites_creer' => 'Como criar ou importar um site?',
+	'c_sites_creer_texte' => 'Você só poderá criar ou importar um site a partir desta página a partir do momento em que exista uma seção no seu site. Você poderá criá-la a partir do menu  «Edição», na opção «Seções».',
 
 	// E
 	'explication_activer_compagnon' => 'O companheiro inclui comentários em certas páginas da área restrita para ajudar a se familiarizar com o SPIP. Você quer ativá-lo?',
