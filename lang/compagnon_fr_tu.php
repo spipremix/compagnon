@@ -36,6 +36,10 @@ Crée donc un article. Tu peux le faire depuis cette page, sous le descriptif de
 	'c_rubriques_creer' => 'Crée une première rubrique !',
 	'c_rubriques_creer_texte' => 'Les rubriques sont la structure de base du site ; tu pourras créer des articles dans chacune d’entre elles.
 Commence par créer une première rubrique.',
+	'c_sites_creer' => 'Comment créer ou importer un site ?',
+	'c_sites_creer_texte' => 'Tu ne peux créer ou importer un site depuis cette page
+		qu’à partir du moment où il existe une rubrique dans ton site.
+		Tu peux la créer depuis le menu « Édition », puis « Rubriques ».',
 
 	// E
 	'explication_activer_compagnon' => 'Le compagnon ajoute des commentaires sur certaines pages
