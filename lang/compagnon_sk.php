@@ -43,6 +43,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_rubriques_creer_texte' => 'Rubriky tvoria základnú štruktúru stránky.
 		V každej z nich môžete vytvárať články.
 		Začnite vytvárať prvú rubriku.',
+	'c_sites_creer' => 'Ako vytvoriť alebo nahrať stránku?',
+	'c_sites_creer_texte' => 'Vytvoriť alebo nahrať stránku nemôžete na tejto stránke,
+		kým na svojom webe nemáte rubriku.
+		Tú môžete vytvoriť pomocou menu Upraviť, potom Rubriky.',
 
 	// E
 	'explication_activer_compagnon' => 'Asistent pridáva komentáre na niektoré stránky
