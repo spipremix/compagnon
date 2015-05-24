@@ -36,6 +36,7 @@ Quindi creare un articolo. Puoi farlo da questa pagina sotto la descrizione del 
 	'c_rubriques_creer' => 'Crea la prima rubrica!',
 	'c_rubriques_creer_texte' => 'Le rubriche sono la struttura di base del sito, è possibile creare elementi ciascuna.
 Iniziare con la creazione di una prima rubrica.',
+	'c_sites_creer' => 'Come creare o importare uno sito ?', # RELIRE
 
 	// E
 	'explication_activer_compagnon' => 'L’assistente aggiunge commenti su alcune pagine dello spazio privato per contribuire a rendere SPIP più facile da usare. Vuoi per attivarlo?',
