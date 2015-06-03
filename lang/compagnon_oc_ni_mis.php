@@ -14,8 +14,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 		Si souòna atualamen « @nom@ ». Lou noum dóu sit es afichat aquì damount sus aquela pàgina.
 		En clicant desoubre, pourès moudificà lou siéu noum, mà finda lì douna un logou e un eslougan.',
 	'c_accueil_publication' => 'Publicàs !',
-	'c_accueil_publication_texte' => 'Da publicà una pàgina, vi caurà creà un article.
-		Per acò, es necessari de creà au màncou una rùbrica. Poudès lou faire en lou menù « Edicioun » en clicant soubre « Rùbrica ».',
+	'c_accueil_publication_texte' => 'Per publicà una pàgina, vi caurà creà un article.
+		Per acò, es nechessari de creà au màncou una rùbrica. Poudès lou faire en lou menù « Edicioun » en clicant soubre « Rùbrica ».',
 	'c_accueil_texte' => 'Venès d’intrà en l’espaci privat de SPIP.',
 	'c_accueil_texte_revenir' => '		Aquela pàgina presenta l’atività editouriala rechenta sus lou vouòstre sit.
 		Poudès sempre tournà sus aquela pàgina en clicant sus l’icona de maioun,
