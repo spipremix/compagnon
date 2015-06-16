@@ -10,7 +10,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	// C
 	'c_accueil_bienvenue' => 'Benvengut @nom@ !',
 	'c_accueil_configurer_site' => 'Counfigurà lou vouòstre sit',
-	'c_accueil_configurer_site_texte' => 'Una dei premièra caua da faire es de douna un noum au vouòstre sit.
+	'c_accueil_configurer_site_texte' => 'Una dei premièra caua da faire es de dounà un noum au vouòstre sit.
 		Si souòna atualamen « @nom@ ». Lou noum dóu sit es afichat aquì damount sus aquela pàgina.
 		En clicant desoubre, pourès moudificà lou siéu noum, mà finda lì douna un logou e un eslougan.',
 	'c_accueil_publication' => 'Publicàs !',
