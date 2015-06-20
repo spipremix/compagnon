@@ -39,6 +39,10 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_rubriques_creer' => 'Maak een eerste rubriek aan !',
 	'c_rubriques_creer_texte' => 'De rubrieken vormen het basisstructuur van je site. In ieder rubriek kan je artikels aanmaken.
 		Begin met het aanmaken van een eerste rubriek.',
+	'c_sites_creer' => 'Hoe je een site maakt of importeert?',
+	'c_sites_creer_texte' => 'Vanaf deze pagina kun pas een site maken of importeren
+		wanneer er tenminste één rubriek in de site bestaat.
+		Je kunt hem aanmaken via het menuVous pouvez la créer depuis le menu « Redactie » en vervolgens « Rubrieken ».',
 
 	// E
 	'explication_activer_compagnon' => 'De metgezel geeft raden op enkele paginas van het privé-ruimte om aan het in hand nemen van SPIP  te helpen. Wil je de metzegel activeren ?',
