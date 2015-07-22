@@ -17,7 +17,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_texte' => 'Vous venez d’entrer dans l’espace privé de SPIP.',
 	'c_accueil_texte_revenir' => '
 		Cette page présente l’activité éditoriale récente sur votre site.
-		Vous pouvez revenir sur cette page à tout instant en cliquant l’icône de maison,
+		Vous pouvez revenir sur cette page à tout instant en cliquant l’icone de maison,
 		sur la partie haute, sous votre nom.',
 	'c_article_redaction' => 'L’article est en cours de rédaction',
 	'c_article_redaction_redacteur' => 'L’article est en cours de rédaction',
