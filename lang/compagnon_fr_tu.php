@@ -18,7 +18,7 @@ En cliquant dessus, tu pourras modifier son nom, mais aussi lui donner un logo e
 Il est nécessaire pour cela de créer au moins une rubrique. Tu peux le faire dans le menu « Édition » en cliquant « Rubriques ».',
 	'c_accueil_texte' => 'Tu viens d’entrer dans l’espace privé de SPIP.',
 	'c_accueil_texte_revenir' => 'Cette page présente l’activité éditoriale récente sur ton site.
-Tu peux revenir sur cette page à tout instant en cliquant l’icône de maison,
+Tu peux revenir sur cette page à tout instant en cliquant l’icone de maison,
 sur la partie haute, sous ton nom.',
 	'c_article_redaction' => 'L’article est en cours de rédaction',
 	'c_article_redaction_redacteur' => 'L’article est en cours de rédaction',
