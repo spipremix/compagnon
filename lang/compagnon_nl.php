@@ -19,7 +19,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_texte' => 'Je bent pas in het privé-ruimte van SPIP binnengekomen.',
 	'c_accueil_texte_revenir' => '		Deze pagina wijst je het laatste editoriaal activiteit op je site aan.
 		Je kan hier altijd terugkomen door op het huisje te klikken die zich aan de bovenkant
-		juist onder je naam bevindt.',
+		juist onder je naam bevindt.', # MODIF
 	'c_article_redaction' => 'De redactie van het artikel is aan de gang.',
 	'c_article_redaction_redacteur' => 'De redactie van het artikel is aan de gang.',
 	'c_article_redaction_redacteur_texte' => 'Om je artikel aan de sitebeheerders en aan de anderen redacteurs voor te stellen,

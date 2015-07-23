@@ -17,7 +17,7 @@ It is also necessary that you create at least one section to do so. You can proc
 	'c_accueil_texte' => 'You have just entered SPIP’s private area.',
 	'c_accueil_texte_revenir' => 'This page shows the latest editorial activity on your site.
 You can visit this page at any time by clicking the "house icon",
-on the top, under your name.',
+on the top, under your name.', # MODIF
 	'c_article_redaction' => 'L’article est en cours de rédaction', # The editing of this article is in progress
 	'c_article_redaction_redacteur' => 'This edition of this article is in progress',
 	'c_article_redaction_redacteur_texte' => 'To propose your article to the site administrators and to the other editors,

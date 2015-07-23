@@ -18,7 +18,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 		Para esto, es necesario crear al menos una sección. Lo puedes hacer por el menú «Edición», eligiendo la opción «Secciones».',
 	'c_accueil_texte' => 'Acabas de entrar en el espacio privado de SPIP.',
 	'c_accueil_texte_revenir' => '		Esta página presenta la actividad editorial reciente de tu sito.
-		Puedes volver a esta página en cualquier momento, pinchando en el icono de menú que representa una casa, arriba de la página, bajo tu nombre.',
+		Puedes volver a esta página en cualquier momento, pinchando en el icono de menú que representa una casa, arriba de la página, bajo tu nombre.', # MODIF
 	'c_article_redaction' => 'El artículo está en curso de redacción',
 	'c_article_redaction_redacteur' => 'El artículo está en curso de redacción',
 	'c_article_redaction_redacteur_texte' => 'Para proponer tu artículo a los administradores del sitio y a los demás redactores, modifica, en el cuadro aquí al lado, «en curso de redacción» por «propuesto a la publicación».',

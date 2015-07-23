@@ -19,7 +19,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_texte' => 'Sie befinden sich jetzt im Redaktionsbereich von SPIP.',
 	'c_accueil_texte_revenir' => '		Diese Seite gibt Ihnen einen Überblick über die Veröffentlichungsaktivität auf Ihrer Website.
 		Sie können sie jederzeit wieder öffnen, indem Sie auf das Haus-Symbol links oben direkt unter 
-                Ihrem Namen klicken.',
+                Ihrem Namen klicken.', # MODIF
 	'c_article_redaction' => 'Der Artikel ist in Bearbeitung.',
 	'c_article_redaction_redacteur' => 'Der Artikel befindet sich in Bearbeitung.',
 	'c_article_redaction_redacteur_texte' => 'Um Ihren Artikel den Admins und Redakteuren vor der Veröffentlichung vorzulegen,

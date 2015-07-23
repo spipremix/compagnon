@@ -18,7 +18,7 @@ Facendo clic, è possibile modificare il nome, ma anche dargli un logo e uno slo
 È necessario che per creare almeno una rubrica. È possibile farlo nel menu "Modifica" cliccando su "Rubriche".',
 	'c_accueil_texte' => 'Siete appena entrati nell’area privata di SPIP.',
 	'c_accueil_texte_revenir' => 'Questa pagina mostra l’ultima attività editoriale sul tuo sito.
-Puoi visitare questa pagina in qualsiasi momento facendo clic sull’icona home, sulla parte superiore, sotto il tuo nome.',
+Puoi visitare questa pagina in qualsiasi momento facendo clic sull’icona home, sulla parte superiore, sotto il tuo nome.', # MODIF
 	'c_article_redaction' => 'L’articolo è in corso di redazione',
 	'c_article_redaction_redacteur' => 'L’articolo è in fase di redazione',
 	'c_article_redaction_redacteur_texte' => 'Per inviare il tuo articolo per gli amministratori del sito e di altri editori, attraverso il pulsante a lato, cambiare da "in scrittura" a "proposto per la pubblicazione."',
