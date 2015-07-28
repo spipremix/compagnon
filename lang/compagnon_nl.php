@@ -17,9 +17,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_publication_texte' => 'Om een pagina te publiceren moet je een artikel scheppen.
 		Hiervoor moet je tenminste een rubriek aanmaken. Je mag dat doen in het « Uitgave » menu door op « Rubrieken » te klikken.',
 	'c_accueil_texte' => 'Je bent pas in het privé-ruimte van SPIP binnengekomen.',
-	'c_accueil_texte_revenir' => '		Deze pagina wijst je het laatste editoriaal activiteit op je site aan.
-		Je kan hier altijd terugkomen door op het huisje te klikken die zich aan de bovenkant
-		juist onder je naam bevindt.', # MODIF
+	'c_accueil_texte_revenir' => '		Deze pagina toont je het laatste editoriaal activiteit op je site.
+		Je kunt hier altijd terugkomen door op het huisje te klikken dat zich aan de bovenzijde
+		bevindt, juist onder je naam.',
 	'c_article_redaction' => 'De redactie van het artikel is aan de gang.',
 	'c_article_redaction_redacteur' => 'De redactie van het artikel is aan de gang.',
 	'c_article_redaction_redacteur_texte' => 'Om je artikel aan de sitebeheerders en aan de anderen redacteurs voor te stellen,
