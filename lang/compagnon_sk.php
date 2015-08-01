@@ -17,9 +17,9 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_publication_texte' => 'Na publikovanie stránky musíte vytvoriť článok.
 		Môžete to urobiť v menu "Upraviť stránku" kliknutím na "Rubriky".',
 	'c_accueil_texte' => 'Práve ste sa dostali do súkromnej zóny SPIPu.',
-	'c_accueil_texte_revenir' => '		Táto stránka uvádza najnovšiu redakčnú aktivitu na vašej stránke.
+	'c_accueil_texte_revenir' => '		Táto stránka predstavuje najnovšiu redakčnú aktivitu na vašej stránke.
 		Na túto stránku sa môžete kedykoľvek vrátiť kliknutím na ikonu domčeka 
-                            na vrchu pod svojím menom.', # MODIF
+                            v hornej časti stránky pod svojím menom .',
 	'c_article_redaction' => 'Článok sa upravuje',
 	'c_article_redaction_redacteur' => 'Článok sa upravuje',
 	'c_article_redaction_redacteur_texte' => 'Na to, aby bol váš článok odoslaný administrátorom stránky a iným redaktorom,
