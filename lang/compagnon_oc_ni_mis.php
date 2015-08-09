@@ -18,8 +18,8 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 		Per acò, es nechessari de creà au màncou una rùbrica. Poudès lou faire en lou menù « Edicioun » en clicant soubre « Rùbrica ».',
 	'c_accueil_texte' => 'Venès d’intrà en l’espaci privat de SPIP.',
 	'c_accueil_texte_revenir' => '		Aquela pàgina presenta l’atività editouriala rechenta sus lou vouòstre sit.
-		Poudès sempre tournà sus aquela pàgina en clicant sus l’icona de maioun,
-		dessamoun, souta lou vouòstre noum.', # MODIF
+		Poudès sempre tournà soubre aquela pàgina en clicant sus l’icona de maioun,
+		dessamoun, souta lou vouòstre noum.',
 	'c_article_redaction' => 'L’article es en cours de redacioun',
 	'c_article_redaction_redacteur' => 'L’article es en cours de redacioun',
 	'c_article_redaction_redacteur_texte' => 'Per proupausa lou vouòstre article ai aministratour dóu sit e ai autre redatour,
