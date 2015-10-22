@@ -20,7 +20,7 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'c_accueil_texte' => 'دخلت الآن في المجال الخاص في SPIP.',
 	'c_accueil_texte_revenir' => 'تعرض هذه الصفحة أحدث نشاطات التحرير في موقعك.
 يمكنك العودة الى هذه الصفحة في اي وقت بالنقر على رمز المنزل،
-في القسم الأعلى من الشاشة، تحت اسمك.', # MODIF
+في القسم الأعلى من الشاشة، تحت اسمك.',
 	'c_article_redaction' => 'المقال قيد التحرير',
 	'c_article_redaction_redacteur' => 'المقال قيد التحرير',
 	'c_article_redaction_redacteur_texte' => 'لعرض مقالك على مدراء الموقع وعلى المحررين الآخرين،
