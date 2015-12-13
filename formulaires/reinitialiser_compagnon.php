@@ -46,5 +46,3 @@ function formulaires_reinitialiser_compagnon_traiter() {
 		'message_ok' => _T('compagnon:reinitialisation_ok')
 	);
 }
-
-?>

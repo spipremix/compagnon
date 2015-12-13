@@ -32,5 +32,3 @@ function action_compagnon_dist() {
 	ecrire_config("compagnon/$auteur/$quoi", 1);
 
 }
-
-?>

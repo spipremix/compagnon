@@ -158,6 +158,3 @@ JS;
 
 	return $flux;
 }
-
-
-?>

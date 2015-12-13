@@ -32,5 +32,3 @@ function filtre_ok_aleatoire_dist() {
 
 	return _T($alea[array_rand($alea)]);
 }
-
-?>

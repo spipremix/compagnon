@@ -143,5 +143,3 @@ function compagnon_compagnon_messages($flux) {
 
 	return $flux;
 }
-
-?>
