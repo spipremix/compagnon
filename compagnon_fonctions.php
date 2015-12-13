@@ -2,11 +2,13 @@
 
 /**
  * Fonctions pour les squelettes
- * 
+ *
  * @package SPIP\Compagnon\Fonctions
-**/
+ **/
 
-if (!defined('_ECRIRE_INC_VERSION')) return;
+if (!defined('_ECRIRE_INC_VERSION')) {
+	return;
+}
 
 
 /**
@@ -15,10 +17,10 @@ if (!defined('_ECRIRE_INC_VERSION')) return;
  *
  * @example
  *     [(#VAL|ok_aleatoire)]
- * 
+ *
  * @return string
  *     Le texte traduit.
-**/
+ **/
 function filtre_ok_aleatoire_dist() {
 	$alea = array(
 		'compagnon:ok',
@@ -27,7 +29,8 @@ function filtre_ok_aleatoire_dist() {
 		'compagnon:ok_merci',
 		'compagnon:ok_parfait',
 	);
-	
+
 	return _T($alea[array_rand($alea)]);
 }
+
 ?>

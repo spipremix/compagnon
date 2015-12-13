@@ -2,23 +2,25 @@
 
 /**
  * Utilisations de pipelines
- * 
+ *
  * @package SPIP\Compagnon\Pipelines
-**/
+ **/
 
-if (!defined('_ECRIRE_INC_VERSION')) return;
+if (!defined('_ECRIRE_INC_VERSION')) {
+	return;
+}
 
 
 /**
  * Ajoute les aides du compagnon sur le pipeline affiche milieu
  *
  * @pipeline affiche_milieu
- * 
+ *
  * @param array $flux
  *     Données du pipeline
  * @return array
  *     Données du pipeline
-**/
+ **/
 function compagnon_affiche_milieu($flux) {
 	return compagnonage($flux, 'affiche_milieu');
 }
@@ -27,12 +29,12 @@ function compagnon_affiche_milieu($flux) {
  * Ajoute les aides du compagnon sur le pipeline affiche gauche
  *
  * @pipeline affiche_gauche
- * 
+ *
  * @param array $flux
  *     Données du pipeline
  * @return array
  *     Données du pipeline
-**/
+ **/
 function compagnon_affiche_gauche($flux) {
 	return compagnonage($flux, 'affiche_gauche');
 }
@@ -41,12 +43,12 @@ function compagnon_affiche_gauche($flux) {
  * Ajoute les aides du compagnon sur le pipeline affiche droite
  *
  * @pipeline affiche_droite
- * 
+ *
  * @param array $flux
  *     Données du pipeline
  * @return array
  *     Données du pipeline
-**/
+ **/
 function compagnon_affiche_droite($flux) {
 	return compagnonage($flux, 'affiche_droite');
 }
@@ -59,14 +61,14 @@ function compagnon_affiche_droite($flux) {
  * - si l'aide n'a pas déjà été validée par le visiteur
  *
  * @pipeline_appel compagnon_messages
- * 
+ *
  * @param array $flux
- * 		Flux d'informations transmises au pipeline
+ *    Flux d'informations transmises au pipeline
  * @param string $pipeline
- * 		Nom du pipeline d'origine
+ *    Nom du pipeline d'origine
  * @return array $flux
- * 		Le flux éventuellement complété de l'aide du compagnon
-**/
+ *    Le flux éventuellement complété de l'aide du compagnon
+ **/
 function compagnonage($flux, $pipeline) {
 
 	// pas de compagnon souhaite ?
@@ -76,11 +78,11 @@ function compagnonage($flux, $pipeline) {
 	}
 
 	$moi = $GLOBALS['visiteur_session'];
-	$deja_vus = lire_config("compagnon/".$moi['id_auteur']);
+	$deja_vus = lire_config("compagnon/" . $moi['id_auteur']);
 
 	$flux['args']['pipeline'] = $pipeline;
 	$flux['args']['deja_vus'] = $deja_vus;
-	$aides = pipeline('compagnon_messages', array('args'=>$flux['args'], 'data' => array()));
+	$aides = pipeline('compagnon_messages', array('args' => $flux['args'], 'data' => array()));
 
 	if (!$aides) {
 		return $flux;
@@ -112,11 +114,10 @@ function compagnonage($flux, $pipeline) {
 			// demande d'un squelette
 			if (isset($aide['inclure']) and $inclure = $aide['inclure']) {
 				unset($aide['inclure']);
-				$ajout = recuperer_fond($inclure, array_merge($flux['args'], $aide), array('ajax'=>true));
-			}
-			// sinon les textes sont fournis
+				$ajout = recuperer_fond($inclure, array_merge($flux['args'], $aide), array('ajax' => true));
+			} // sinon les textes sont fournis
 			else {
-				$ajout = recuperer_fond('compagnon/_boite', $aide, array('ajax'=>true));
+				$ajout = recuperer_fond('compagnon/_boite', $aide, array('ajax' => true));
 			}
 
 			$ajouts .= $ajout;
@@ -126,7 +127,7 @@ function compagnonage($flux, $pipeline) {
 	// ajout de nos trouvailles
 	if ($ajouts) {
 		$twinkle = find_in_path('prive/javascript/jquery.twinkle.js');
-		$ajouts.=<<<JS
+		$ajouts .= <<<JS
 <script type="text/javascript">
 jQuery.getScript('$twinkle',function(){
 	jQuery(function(){
@@ -154,11 +155,9 @@ JS;
 
 		$flux['data'] = $ajouts . $flux['data'];
 	}
-	
+
 	return $flux;
 }
-
-
 
 
 ?>
