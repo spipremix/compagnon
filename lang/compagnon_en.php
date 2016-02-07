@@ -20,7 +20,7 @@ It is also necessary that you create at least one section to do so. You can proc
 	'c_accueil_texte_revenir' => 'This page shows the latest editorial activity on your site.
 You can visit this page at any time by clicking the "house icon",
 on the top, under your name.',
-	'c_article_redaction' => 'L’article est en cours de rédaction', # The editing of this article is in progress
+	'c_article_redaction' => 'The editing of this article is in progress', # The editing of this article is in progress
 	'c_article_redaction_redacteur' => 'This edition of this article is in progress',
 	'c_article_redaction_redacteur_texte' => 'To propose your article to the site administrators and to the other editors,
 within the block on the column side, change "edition in progress" to "submitted for evaluation."',
@@ -38,9 +38,8 @@ So create an article. You can do it from this page under the description of your
 	'c_rubriques_creer' => 'Create a first section !',
 	'c_rubriques_creer_texte' => 'Sections are the basic structure of the site, you can create articles in each of them. Start by creating a first section.',
 	'c_sites_creer' => 'How to create or import a site?',
-	'c_sites_creer_texte' => 'Vous ne pourrez créer ou importer un site depuis cette page
-		qu’à partir du moment où il existe une rubrique dans votre site.
-		Vous pouvez la créer depuis le menu « Édition », puis « Rubriques ».',
+	'c_sites_creer_texte' => 'You can only create or import a site from this page when a section already exists in your site.
+You can create it from the menu		"Edit", then "Sections".',
 
 	// E
 	'explication_activer_compagnon' => 'The companion adds comments on some pages of the private area to assist in taking SPIP in hand. Would you like to activate it?',
