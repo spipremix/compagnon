@@ -19,7 +19,7 @@ Atualmente, ele se chama « @nom@ ». O nome do site é exibido no alto desta 
 Para isso, é necessário que você crie pelo menos uma seção. Você pode fazê-lo no menu « Edição », clicando em « Seções ».',
 	'c_accueil_texte' => 'Você acaba de entrar na área privada do SPIP.',
 	'c_accueil_texte_revenir' => 'Esta página exibe a atividade editorial recente no seu site.
-Você pode voltar a esta página a qualquer momento clicando no ícone da casa, no cabeçalho, sob o seu nome.', # MODIF
+Você pode voltar a esta página a qualquer momento clicando no ícone da casa, no cabeçalho, sob o seu nome.',
 	'c_article_redaction' => 'A matéria está em fase de redação',
 	'c_article_redaction_redacteur' => 'A matéria está em fase de redação',
 	'c_article_redaction_redacteur_texte' => 'Para propor a sua matéria aos administradores do site e aos outros redatores, no box ao lado, altere «em fase de redação» por «proposta para publicação».',
