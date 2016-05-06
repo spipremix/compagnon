@@ -14,4 +14,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'compagnon_nom' => 'همراه ',
 	'compagnon_slogan' => 'همراه اول با اسپيپ نيست'
 );
-

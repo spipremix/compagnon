@@ -14,4 +14,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'compagnon_nom' => 'Assistente',
 	'compagnon_slogan' => 'Assistente per il primo utilizzo di SPIP'
 );
-
