@@ -62,4 +62,3 @@ Você pode criá-la a partir do  menu « Edição » e, em seguida « Seçõe
 	'titre_compagnon' => 'O Companheiro',
 	'titre_page_configurer_compagnon' => 'Configurar o Companheiro'
 );
-

@@ -77,4 +77,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_compagnon' => 'Sprievodca',
 	'titre_page_configurer_compagnon' => 'Nastaviť Sprievodcu'
 );
-

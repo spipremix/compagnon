@@ -67,4 +67,3 @@ Vuoi ripristinare questi messaggi?',
 	'titre_compagnon' => 'L’assistente',
 	'titre_page_configurer_compagnon' => 'Configurare l’assistente'
 );
-

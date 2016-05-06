@@ -71,4 +71,3 @@ Souhaites-tu réinitialiser ces messages ?',
 	'titre_compagnon' => 'Le Compagnon',
 	'titre_page_configurer_compagnon' => 'Configurer le Compagnon'
 );
-

@@ -69,4 +69,3 @@ Komencu krei unuan rubrikon.',
 	'titre_compagnon' => 'La kompano',
 	'titre_page_configurer_compagnon' => 'Agordi la kompano'
 );
-

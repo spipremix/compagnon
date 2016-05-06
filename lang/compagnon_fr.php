@@ -76,4 +76,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_compagnon' => 'Le Compagnon',
 	'titre_page_configurer_compagnon' => 'Configurer le Compagnon'
 );
-

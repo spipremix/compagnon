@@ -58,4 +58,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'titre_compagnon' => 'O guia',
 	'titre_page_configurer_compagnon' => 'Configurar o guia'
 );
-
