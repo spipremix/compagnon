@@ -16,4 +16,3 @@ during their first visit to the backoffice of SPIP.',
 	'compagnon_slogan' => 'First steps wizard with SPIP'
 );
 
-?>

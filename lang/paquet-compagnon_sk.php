@@ -16,4 +16,3 @@ $GLOBALS[$GLOBALS['idx_lang']] = array(
 	'compagnon_slogan' => 'Sprievodca pri prvých krokoch so SPIPom'
 );
 
-?>
