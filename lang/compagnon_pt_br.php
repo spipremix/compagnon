@@ -63,4 +63,3 @@ Você pode criá-la a partir do  menu « Edição » e, em seguida « Seçõe
 	'titre_page_configurer_compagnon' => 'Configurar o Companheiro'
 );
 
-?>

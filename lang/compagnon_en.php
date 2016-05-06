@@ -69,4 +69,3 @@ Would you like to reset these messages?',
 	'titre_page_configurer_compagnon' => 'Configure the companion'
 );
 
-?>

@@ -67,4 +67,3 @@ Voldrieu reiniciar aquests missatges?',
 	'titre_page_configurer_compagnon' => 'Configura el company'
 );
 
-?>

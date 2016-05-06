@@ -69,4 +69,3 @@ Puede crearlo desde el menú «Edición», eligiendo la opción «Secciones».',
 	'titre_page_configurer_compagnon' => 'Configurar el Compañero'
 );
 
-?>

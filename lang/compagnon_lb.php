@@ -65,4 +65,3 @@ Fänkt mat enger éischter Rubrik un.',
 	'titre_page_configurer_compagnon' => 'De Compagnon astellen'
 );
 
-?>

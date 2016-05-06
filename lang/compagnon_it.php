@@ -68,4 +68,3 @@ Vuoi ripristinare questi messaggi?',
 	'titre_page_configurer_compagnon' => 'Configurare l’assistente'
 );
 
-?>

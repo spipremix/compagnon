@@ -70,4 +70,3 @@ hinzu, um Sie bei der Nutzung von SPIP zu unterstützen.
 	'titre_page_configurer_compagnon' => 'Einstellungen des Begleiters'
 );
 
-?>
