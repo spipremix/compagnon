@@ -31,10 +31,8 @@ function compagnon_compagnon_messages($flux) {
 	$aides = &$flux['data'];
 
 	switch ($pipeline) {
-
 		case 'affiche_milieu':
 			switch ($exec) {
-
 				case 'accueil':
 					$aides[] = array(
 						'id' => 'accueil',
@@ -56,7 +54,6 @@ function compagnon_compagnon_messages($flux) {
 						'target' => '#bando1_menu_edition',
 					);
 					break;
-
 
 				case 'rubriques':
 					// eviter si possible une requete sql.

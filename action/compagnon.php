@@ -30,5 +30,4 @@ function action_compagnon_dist() {
 
 	include_spip('inc/config');
 	ecrire_config("compagnon/$auteur/$quoi", 1);
-
 }

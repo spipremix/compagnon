@@ -73,12 +73,12 @@ function compagnonage($flux, $pipeline) {
 
 	// pas de compagnon souhaite ?
 	include_spip('inc/config');
-	if (lire_config("compagnon/config/activer") == 'non') {
+	if (lire_config('compagnon/config/activer') == 'non') {
 		return $flux;
 	}
 
 	$moi = $GLOBALS['visiteur_session'];
-	$deja_vus = lire_config("compagnon/" . $moi['id_auteur']);
+	$deja_vus = lire_config('compagnon/' . $moi['id_auteur']);
 
 	$flux['args']['pipeline'] = $pipeline;
 	$flux['args']['deja_vus'] = $deja_vus;
@@ -88,7 +88,7 @@ function compagnonage($flux, $pipeline) {
 		return $flux;
 	}
 
-	$ajouts = "";
+	$ajouts = '';
 
 	foreach ($aides as $aide) {
 		// restreindre l'affichage par statut d'auteur
