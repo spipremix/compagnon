@@ -353,7 +353,7 @@ function animation(css, event, settings, callback) {
 
         $dot = $('<div />')
                 .css(css)
-                .bind('click dblclick mousedown mouseenter mouseover mousemove', blockEvents);
+                .on('click dblclick mousedown mouseenter mouseover mousemove', blockEvents);
         $(event.element).after($dot);
         $dot.animate(
             {
@@ -709,7 +709,7 @@ function CanvasEffect(twinkleEvent, width, height, frame, callback) {
 
         $canvas = jQuery('<canvas />').attr('width', width).attr('height', height).css(css);
         jQuery(element).after($canvas);
-        $canvas.bind('click dblclick mousedown mouseenter mouseover mousemove', blockEvents);
+        $canvas.on('click dblclick mousedown mouseenter mouseover mousemove', blockEvents);
         ctx = new Objects.Ctx($canvas.get(0).getContext('2d'));
 
         for (i = 0; i <= frameCount; i += 1) {
