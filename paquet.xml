@@ -1,9 +1,9 @@
 <paquet
 	prefix="compagnon"
 	categorie="divers"
-	version="1.6.0"
+	version="1.7.0"
 	etat="stable"
-	compatibilite="[3.2.0-dev;3.2.*]"
+	compatibilite="[3.3.0-dev;3.3.*]"
 	logo="prive/themes/spip/images/compagnon-32.png"
 	schema="1.0.0"
 >
