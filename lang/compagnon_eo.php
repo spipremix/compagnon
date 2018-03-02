@@ -21,7 +21,7 @@ Por tio, estas necesa krei almenaŭ unu rubrikon. Vi povas fari tion en la menuo
 	'c_accueil_texte' => 'Vi ĵus eniris en la SPIP privata spaco.',
 	'c_accueil_texte_revenir' => 'Tiu paĝo prezentas la freŝa ĉefartikola aktiveco en via retejo.
 Vi povas reveni al tiu paĝo ĉiumomente klakante la domvigneton,
-sur la supra parto sub via nomo.', # MODIF
+sur la supra parto, sub via nomo.',
 	'c_article_redaction' => 'La artikolo estas redaktata',
 	'c_article_redaction_redacteur' => 'La artikolo estas redaktata',
 	'c_article_redaction_redacteur_texte' => 'Por proponi vian artikolon al la retej-mastrumantoj kaj al aliaj redakantoj, en la flanka kadro, ŝanĝu « redaktataj » ĝis « proponita por taksado ».
@@ -41,6 +41,8 @@ Do kreu artikolon. Vi povas fari tion el ĉi tiu paĝo, sub la priskribo de via 
 	'c_rubriques_creer' => 'Kreu unuan rubrikon',
 	'c_rubriques_creer_texte' => 'La rubrikoj estas la baza strukturo de la retejo ;  vi povos krei artikolojn en ĉiuj rubrikoj.
 Komencu krei unuan rubrikon.',
+	'c_sites_creer' => 'Kiel krei aŭ importi retejon ?',
+	'c_sites_creer_texte' => 'Vi povos krei aŭ importi retejon ĉi tie, nur kiam ekzistos rubriko en via retejo. Vi povas krei tiun rubrikon per la menuo „Eldono“, ero „Rubrikoj“.',
 
 	// E
 	'explication_activer_compagnon' => 'La kompano aldonas komentojn en iuj paĝoj de la privata spaco por helpi al unuaj uzadoj de SPIP. Ĉu vi volas ebligi tion ?',
