@@ -32,7 +32,7 @@ En la flanka kadro, ŝanĝu « redaktataj » ĝis « rete publikigita ».',
 	'c_articles_creer_texte' => 'Vi povos nur krei artikolon de tiu ĉi paĝo nuntempe existos almenaŭ unu rubrikon en via retejo.
 Vi povas krei ĝin de la menuo « Aldono », poste « Rubrikoj ».',
 	'c_job' => 'La taksoj por fari…',
-	'c_job_texte' => 'Ĉi tiu paĝo listas venontajn bontenadajn taskojn kiujn SPIP devas realigi.
+	'c_job_texte' => 'Ĉi tiu paĝo listigas venontajn bontenadajn taskojn kiujn SPIP devas realigi.
 Tiuj taskoj estas realigitaj je regulaj intervaloj aŭ foje, por pezaj traktadoj petita de kromprogramoj
 kiel multaj retpoŝtaj sendoj.',
 	'c_rubrique_publier' => 'Kreu artikolon',
